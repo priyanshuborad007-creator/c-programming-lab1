@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main()
 {
-int g,a,d;
+
+int g,a,d,sum=0;
 printf("Enter the numbers :");
-scanf("%d%d%d",&g,&a,&d);
+scanf("%d %d %d",&g,&a,&d);
 sum=g+a-d;
 printf("%d+%d-%d=%d,sum");
 if(g>10000)
